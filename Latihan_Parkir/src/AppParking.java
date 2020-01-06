@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ParkingInput{
+public class AppParking{
     public static void main(String []args) {
         Scanner input = new Scanner(System.in);
         int lamaParkir, b_parkir=0;
@@ -11,7 +11,7 @@ public class ParkingInput{
         
         System.out.println("Plat Nomor");
         String platNomor = input.nextLine();
-        System.out.println("Tipe Kendaraan : [1. Mobil / 2. Motor");
+        System.out.println("Tipe Kendaraan : [1. Mobil / 2. Motor]");
         int kendaraan = input.nextInt();
         System.out.println("Masukkan Jam Masuk :");
         int jamMasuk = input.nextInt();
